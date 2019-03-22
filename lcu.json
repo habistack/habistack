@@ -1,0 +1,17 @@
+{
+    "templates": {
+        "repository": "lowcodeunit-devkit/lcu-cli-templates-core",
+        "scope": "@habistack",
+        "workspace": "habistack"
+    },
+    "config": {
+      "wc": ["wc/lcu-identity.lcu.js"],
+      "solutions": {
+        "lcu-identity": {
+          "element": "lcu-identity-config-manager-element"
+        }
+      },
+      "elements": {},
+      "flux": {}
+    }
+}
