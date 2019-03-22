@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { FathymSharedModule } from '@lcu-ide/common';
+import { HabistackConfigManagerElementComponent } from './elements/habistack-config-manager-element/habistack-config-manager-element.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  declarations: [HabistackConfigManagerElementComponent],
+  imports: [FathymSharedModule],
+  exports: [HabistackConfigManagerElementComponent],
+  entryComponents: [HabistackConfigManagerElementComponent]
 })
-export class HabistackModule { }
+export class HabistackModule {}
