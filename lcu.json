@@ -7,7 +7,7 @@
     "config": {
       "wc": ["wc/habistack.lcu.js"],
       "solutions": {
-        "lcu-identity": {
+        "config-manager": {
           "element": "lcu-habistack-config-manager-element"
         }
       },
