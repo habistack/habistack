@@ -5,7 +5,7 @@
         "workspace": "habistack"
     },
     "config": {
-      "wc": ["wc/habistack.lcu.js"],
+      "wc": ["wc/lcu-habistack.lcu.js"],
       "solutions": {
         "config-manager": {
           "element": "lcu-habistack-config-manager-element"
